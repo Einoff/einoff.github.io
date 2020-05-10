@@ -1,0 +1,214 @@
+@media(max-width: 1150px) {
+    .services-item {
+        padding: 23px 20px 39px;
+    }
+    .advantages__items {
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+    .advantages__item{
+        max-width: 550px;
+        margin-bottom: 35px;
+    }
+    
+    
+}
+
+
+
+@media(max-width: 950px) {
+    .footer__info{
+        margin-right: 15px;
+    }
+    .services-items{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .services-item {
+        max-width: 650px;
+        margin-bottom: 25px;
+        
+    }
+    .services-item:not(:last-child) {
+        margin-right: 0;
+    }
+    .consultation__img{
+       display: none;
+    }
+    .form__right{
+        margin-right: 0;
+    }
+    .news__block{
+        flex-direction: column;
+    }
+    .news__slider{
+        max-width: 100%;
+    }
+    .news__latest-item{
+        max-width: initial;
+        margin-left: 0;
+    }
+    .news__latest-item:first-child{
+        
+        margin-right: 15px;
+    }
+    .news__slider-nav{
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+    .news__slider-nav{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 800px) {
+    .slider__descr{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .news__section-top{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .section-top__content{
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .section-top__content::before{
+        display: none;
+    }
+    .section-top__descr{
+        margin-bottom: 35px;
+    }
+    .section-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    .slider__navigation{
+        top: auto;
+        bottom: 30px;
+        padding: 0 20px;
+    }
+}
+
+@media(max-width: 750px){
+    .header__contacts-inner{
+        flex-direction: column;
+        padding: 25px 0;
+    }
+    .header__contacts-block{
+        margin-bottom: 30px;
+    }
+    .header__contacts-link{
+        font-size: 19px;
+    }
+    .header__menu-list {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 35px;
+        left: -15px;
+        right: -15px;
+        z-index: 50;
+        background: #ffc222;
+    }
+    .header__menu-link:hover{
+        border: 1px solid transparent;
+        transform: scale(1.2)
+    }
+   
+    .header__menu-list li{
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+    .footer__contacts { 
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__info{
+        margin-right: 0;
+    }
+    .form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form__left {
+        margin-right: 0;
+    }
+    .footer__map{
+        width: 100%;
+    }
+    .form__btn{
+        margin-top: 12px;
+    }
+    .header__menu--mobile-btn{
+        display: inline-block;
+    }
+}
+
+@media(max-width: 550px){
+    .header__contacts-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .header__contacts-link:not(:first-child){
+        padding-left: 0;
+    }
+    .header__contacts-link{
+        margin-bottom: 20px;
+    
+    }
+    .news__latest{
+        flex-direction: column;
+    }
+    .news__latest-item:first-child {
+        margin-right: 0;
+    }
+    .news__latest-item{
+        margin-bottom: 30px;
+    }
+    .news{
+        padding-bottom: 30px;
+    }
+    
+}
+
+@media(max-width: 400px){
+    .slider__title{
+        margin: 65px 0 30px;
+        font-size: 26px;
+    }
+    .slider__descr {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .slider__btn {
+        border: 3px solid #ffc222;
+        border-right: 30px solid #ffc222;
+        font-size: 20px;
+    }
+    .slider__btn.default-btn::after{
+        font-size: 15px;
+    }
+    /* position: relative;
+    padding: 12px 20px;
+    border: 1px solid #ffc222;
+    border-right: 21px solid #ffc222;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    transition: all .1s; */
+
+}
