@@ -39,15 +39,6 @@ a {
   max-width: 1250px;
   padding: 0 20px; }
 
-.decore-img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-image: url("/images/Fuul-decor-img.png");
-  z-index: 99; }
-
 .title {
   font-size: 60px;
   font-weight: 700; }
@@ -129,7 +120,7 @@ a {
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url("/images/contact-bg.png");
+    background-image: url("./images/contact-bg.png");
     background-repeat: no-repeat;
     background-position: center 10px;
     pointer-events: none;
@@ -233,7 +224,7 @@ a {
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url("/images/about-bg.png");
+    background-image: url("./images/about-bg.png");
     background-repeat: no-repeat;
     background-position: center 25px;
     background-size: contain;
@@ -320,7 +311,7 @@ a {
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url("/images/partners-bg.png");
+    background-image: url("./images/partners-bg.png");
     background-repeat: no-repeat;
     background-position: center 20px;
     background-size: contain;
