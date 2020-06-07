@@ -120,7 +120,7 @@ a {
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url("./images/contact-bg.png");
+    background-image: url("../images/contact-bg.png");
     background-repeat: no-repeat;
     background-position: center 10px;
     pointer-events: none;
@@ -224,7 +224,7 @@ a {
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url("./images/about-bg.png");
+    background-image: url("../images/about-bg.png");
     background-repeat: no-repeat;
     background-position: center 25px;
     background-size: contain;
@@ -311,7 +311,7 @@ a {
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url("./images/partners-bg.png");
+    background-image: url("../images/partners-bg.png");
     background-repeat: no-repeat;
     background-position: center 20px;
     background-size: contain;
