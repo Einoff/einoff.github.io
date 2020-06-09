@@ -4505,13 +4505,13 @@ a {
     font-size: 17px;
     color: #333; }
   .features-row__img {
-    background-image: url("./images/feature-row-img.jpg");
+    background-image: url("../images/feature-row-img.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%; }
   .features-row__img2 {
-    background-image: url("./images/feature-row-img2.jpg");
+    background-image: url("../images/feature-row-img2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -4519,7 +4519,7 @@ a {
 
 .offer {
   position: relative;
-  background-image: url("./images/offer-parallax.jpg");
+  background-image: url("../images/offer-parallax.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -4711,7 +4711,7 @@ a {
 
 .subscribe {
   position: relative;
-  background-image: url("./images/subscribe-bg.jpg");
+  background-image: url("../images/subscribe-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -4869,7 +4869,7 @@ a {
 
 .facts {
   position: relative;
-  background-image: url("./images/facts-bg.jpg");
+  background-image: url("../images/facts-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -5212,7 +5212,7 @@ a {
 
 .video {
   position: relative;
-  background-image: url(./images/video-bg.jpg);
+  background-image: url("../images/video-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -5375,7 +5375,7 @@ a {
 
 .purchase {
   position: relative;
-  background-image: url(./images/purchase-bg.jpg);
+  background-image: url("../images/purchase-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -5441,7 +5441,7 @@ a {
 
 .form {
   position: relative;
-  background-image: url("./images/form-bg.jpg");
+  background-image: url("../images/form-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
