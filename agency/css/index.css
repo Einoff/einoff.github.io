@@ -4252,7 +4252,7 @@ a {
         -ms-flex-align: center;
             align-items: center;
     position: relative;
-    height: 768px;
+    height: 100vh;
     text-align: center;
     z-index: 5; }
   .header__title {
