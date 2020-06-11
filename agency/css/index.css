@@ -5714,6 +5714,9 @@ a {
             transform: translate(-50%, -60%);
     width: 15px;
     height: 15px; }
+.icon-angle-down{
+   pointer-events: none;
+}
 
 @media (max-height: 450px) {
   .header__content {
@@ -5878,6 +5881,6 @@ a {
   .subscribe__btn {
     width: 100%;
     height: 60px; } }
-
+   
 .enable {
   display: initial; }
